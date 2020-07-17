@@ -1,0 +1,10 @@
+if __name__ == '__main__':
+    
+    n=int(input())
+    mylist=[]
+    for num in range(1,n+1):
+        mylist.append(num)
+        
+    for n in mylist:
+        print(n, end='')
+        
